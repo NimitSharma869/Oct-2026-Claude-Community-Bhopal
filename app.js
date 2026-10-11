@@ -11,11 +11,9 @@ const num = (v) => (v == null ? "—" : String(Number(Number(v).toFixed(3))));
 // API location: ?api=http://host:port overrides; same origin when served by the backend;
 // localhost:8000 when index.html is opened directly from disk.
 const API_BASE = (() => {
-  const fromQuery = new URLSearchParams(location.search).get("api");
-  if (fromQuery) return fromQuery.replace(/\/+$/, "");
-  if (window.JAL_API_BASE) return String(window.JAL_API_BASE).replace(/\/+$/, "");
-  if (location.protocol === "file:") return "http://localhost:8000";
-  return "";
+  
+  
+  return "https://jal-drishti-heol.onrender.com";
 })();
 
 const VISARJAN_DATE = new Date("2026-10-20T00:00:00+05:30"); // Durga visarjan date from the participant guide
