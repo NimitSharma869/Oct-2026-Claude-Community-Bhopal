@@ -3,6 +3,8 @@ October 2026 Hackathon Claude Community Bhopal
 
 # How to run
 
+download and unzip "Hackerthon.zip"
+
 ## Windows (Powershell)
 
 cd backend 
