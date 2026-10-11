@@ -15,7 +15,7 @@ py -m venv .venv
 
 python -m pip install -r requirements.text
 
-python -m cvicorn jal_drishti.api::app --port 8000
+python -m uvicorn jal_drishti.api::app --port 8000
 
 ## Mac/Linux
 
@@ -27,4 +27,4 @@ source .venv/bin/activate
 
 python -m pip install -r requirements.text
 
-python -m cvicorn jal_drishti.api::app --port 8000
+python -m uvicorn jal_drishti.api::app --port 8000
