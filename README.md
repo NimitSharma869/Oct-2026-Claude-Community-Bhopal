@@ -3,7 +3,13 @@ October 2026 Hackathon Claude Community Bhopal
 
 # How to run
 
-download and unzip "Hackerthon.zip"
+download and run "make_jal_drishti.py"
+
+replace the contents of the frontend folder with those of this repo
+
+Add your data to the data folder
+
+Follow the following commands
 
 ## Windows (Powershell)
 
