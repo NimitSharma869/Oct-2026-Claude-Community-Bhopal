@@ -21,6 +21,9 @@ python -m uvicorn jal_drishti.api::app --port 8000
 
 cd backend
 
+## link
+https://jaldrishti-lyart.vercel.app
+
 python3 -m venv .venv
 
 source .venv/bin/activate
